@@ -9,6 +9,8 @@ fs.writeFileSync('output/unverified.txt', '');
 
 const tokens = fs.readFileSync('tokens.txt', 'utf-8').replace(/\r/gi, '').split("\n");
 
+
+
 var i = 0;
 setInterval(() => {
     if (i >= tokens.length) {
